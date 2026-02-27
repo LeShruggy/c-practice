@@ -60,7 +60,7 @@ int main()
 
     //THE ORDER OF YOUR STATEMENTS MATTER!! 
 
-    bool isStudent = 1;
+    bool isStudent = 1; //if this 1/true it does if. If this false/0 it does else
     
     if(isStudent){//when examining boolean variables theres no need for a comparison "==" indicator.
         printf("You are a student\n");
@@ -83,8 +83,5 @@ int main()
         printf("Hello %s, its nice to meet you!", name);
     }
     
-
-
-
     return 0;
 }
