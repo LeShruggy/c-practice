@@ -318,10 +318,11 @@ int main(){
         break;
         }
     
-    printf("Thanks for entrusting your Cinema experience to Bazinga Enterprises!\n");
+    printf("\nThanks for entrusting your Cinema experience to Bazinga Enterprises!\n");
     printf("We hope your experience with '%s' will be filled with enjoyment and pleasure.\n", movie);
     printf("Don't forget to leave a review afterward!\n");
+
     printf("\nHi owner Seb here. Thanks for using my 2nd project. Ts took me like 3 or maybe 2 hours at least.\n");
-    printf("Okay bye hope you had fun watching the movie! You think I was giving you a link to the movie? Hell nah!!!!");
+    printf("Okay bye hope you had fun watching the movie! You think I was giving you a link to the movie? Hell nah!!!!\n");
     printf("Second major project 3/1/26");
 }

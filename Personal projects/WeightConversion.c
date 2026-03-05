@@ -29,6 +29,7 @@ int main(){
     }
     else{
         printf("You did not select 1 or 2 dumbass, try again!");
+        exit (0);
     }
 
     return 0;
