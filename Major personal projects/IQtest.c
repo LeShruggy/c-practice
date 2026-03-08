@@ -4,6 +4,7 @@
 //one of them isalpha() -> Asks; is this character a letter?
 //another is; isdigiy() -> Asks; is this character a number?
 #include <windows.h>
+#include <stdlib.h>
 
 int CharCheck(char name[]);
 int isEmpty(char name[]);
