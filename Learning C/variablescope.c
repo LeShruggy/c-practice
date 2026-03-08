@@ -1,6 +1,8 @@
 #include <stdio.h>
 
-
+int result = 0; //this is a GLOBAL SCOPE. defining a virable OUTSIDE any functions
+//now any part of your program can recognize this variable 
+//Not recommended because ur program will be HARD TO DEBUG. better to stick to local variables.
 
 int add(int x, int y){
     int result = x + y;
@@ -14,14 +16,14 @@ int subtract(int x, int y){
 
 //FUNCTIONS CANNOT SEE INSIDE OF OTHER FUNCTIONS
 //its like int subtract is ur neighbors house, and int main is ur house.
-//they cant see whats inside your house, neither can you see inside their house
+//they cant see whats inside your house, neither can you see whats inside their house
 //so you gotta call them() to let them know about your variables
 //subtract() <- no work, what i dont know x and y.. subtract(int x, int y) wow thank for calling brader
 
 int main(){
 
     /* variable scope = Refers to where a variable is recognized and accessible.
-    variables can share the same name if they're in different scopes
+    variables can share the same name if they're in DIFFERENT scopes. 
     
     scopes{} - Set of curly braces. Anything within those curly braces is a local scope.
     within the same scope, two variables cannot share the same name.

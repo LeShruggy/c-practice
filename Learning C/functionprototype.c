@@ -34,7 +34,7 @@ int main(){
     else{
         printf("You must be 16+ to work at the Krusty Krab");
     }
-}
+} 
 
 void hello(char name[], int age){ 
     printf("Hello %s\n", name);

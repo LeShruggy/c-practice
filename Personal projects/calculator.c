@@ -38,6 +38,7 @@ int main(){
              }
              else{
                 result = number1 / number2;
+                printf("BLYAAAT: %.1000lf", result);
              }
         break;
         printf("BLYAAAT: %.1000lf", result);
