@@ -1728,6 +1728,8 @@ int main(){
 
     }
 
+    printf("\nMade by Seb, March 2026\n");
+
 }
 
 void Max(){
